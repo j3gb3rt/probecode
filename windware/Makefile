@@ -1,7 +1,7 @@
 CC = gcc
 
 windware: windware.c
-	$(CC) windware.c -lserialport -o windware
+	$(CC) windware.c -lwiringPi -o windware
 
 clean:
 	rm *.o
